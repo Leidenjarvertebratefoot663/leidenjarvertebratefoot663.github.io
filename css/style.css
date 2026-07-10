@@ -6,9 +6,6 @@
   --accent-dim: #cc3a3a;
   --muted: #7c8b81;
   --border: #223028;
-  --red: #ff5f56;
-  --yellow: #ffbd2e;
-  --green: #27c93f;
   --font-mono: "JetBrains Mono", "Fira Code", "SFMono-Regular", Consolas, Menlo, monospace;
 }
 
@@ -40,11 +37,12 @@ a:hover { text-decoration: underline; }
   flex-wrap: wrap;
 }
 
-.term-dots { display: flex; gap: 0.4rem; }
-.dot { width: 11px; height: 11px; border-radius: 50%; display: inline-block; }
-.dot.red { background: var(--red); }
-.dot.yellow { background: var(--yellow); }
-.dot.green { background: var(--green); }
+.home-btn {
+  color: var(--accent);
+  font-weight: 600;
+  font-size: 0.9rem;
+  white-space: nowrap;
+}
 
 .term-nav {
   display: flex;
