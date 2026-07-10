@@ -190,8 +190,6 @@ h1 {
 .pub-title { font-weight: 600; }
 .pub-venue { color: var(--muted); font-size: 0.88rem; }
 
-.empty-state { color: var(--muted); font-size: 0.9rem; margin-bottom: 1rem; }
-
 .contact-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 0.5rem; }
 .contact-list .label { color: var(--muted); display: inline-block; width: 80px; }
 

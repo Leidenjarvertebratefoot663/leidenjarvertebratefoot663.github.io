@@ -32,26 +32,3 @@ document.getElementById("navToggle").addEventListener("click", () => {
 typeName();
 tickClock();
 setInterval(tickClock, 1000);
-
-const posts = [];
-
-function renderBlog() {
-  const list = document.getElementById("blogList");
-  const empty = document.querySelector(".empty-state");
-  if (posts.length === 0) {
-    empty.style.display = "block";
-    return;
-  }
-  empty.style.display = "none";
-  list.innerHTML = posts
-    .map(
-      (p) => `
-      <div class="card">
-        <h3>${p.title}</h3>
-        <p>${p.summary}</p>
-      </div>`
-    )
-    .join("");
-}
-
-renderBlog();
