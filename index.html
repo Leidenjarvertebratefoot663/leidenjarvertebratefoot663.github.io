@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>rokyp1278 ~ Park, Minseok</title>
+<meta name="description" content="Park, Minseok — Physical AI &amp; Space Security researcher">
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="term-bar">
+  <div class="term-dots"><span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span></div>
+  <div class="term-title">minseok@rokyp1278:~$</div>
+  <nav class="term-nav">
+    <a href="#whoami">whoami</a>
+    <a href="#career">career</a>
+    <a href="#research">research</a>
+    <a href="#publications">publications</a>
+    <a href="#blog">blog</a>
+    <a href="#contact">contact</a>
+  </nav>
+  <button class="term-nav-toggle" id="navToggle" aria-label="toggle menu">☰</button>
+</header>
+
+<main>
+
+  <section id="whoami" class="section hero">
+    <div class="prompt-line"><span class="prompt">$</span> whoami</div>
+    <div class="hero-body">
+      <div class="avatar" id="avatar">PM</div>
+      <div class="hero-text">
+        <h1><span class="typed" id="typedName"></span><span class="cursor">_</span></h1>
+        <p class="role">Undergraduate Researcher — Physical AI &amp; Space Security</p>
+        <p class="bio">
+          Electronic Engineering undergraduate at Jeonbuk National University, currently pursuing the
+          Advanced Defense Industry convergence major. Interested in physical AI and space security,
+          currently researching exoskeleton systems and SAR satellite security.
+        </p>
+        <div class="badges">
+          <span class="badge">Physical AI</span>
+          <span class="badge">Space Security</span>
+          <span class="badge">Exoskeleton</span>
+          <span class="badge">SAR Satellite</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="career" class="section">
+    <div class="prompt-line"><span class="prompt">$</span> cat career.log</div>
+    <ul class="timeline">
+      <li>
+        <span class="tl-date">2026.07 – 2026.08</span>
+        <span class="tl-title">Summer Research Trainee, Enseption Team</span>
+        <span class="tl-org">Electronics and Telecommunications Research Institute (ETRI)</span>
+      </li>
+      <li>
+        <span class="tl-date">2026.01 – Present</span>
+        <span class="tl-title">Undergraduate Intern, DAS LAB (Defense Advanced Security Lab)</span>
+        <span class="tl-org">Dept. of Advanced Defense Industry, Jeonbuk National University</span>
+      </li>
+      <li>
+        <span class="tl-date">2025</span>
+        <span class="tl-title">Convergence Major in Progress</span>
+        <span class="tl-org">Advanced Defense Industry, Jeonbuk National University</span>
+      </li>
+      <li>
+        <span class="tl-date">2023</span>
+        <span class="tl-title">Honorable Discharge, 1278th Cohort</span>
+        <span class="tl-org">Republic of Korea Marine Corps</span>
+      </li>
+      <li>
+        <span class="tl-date">2021</span>
+        <span class="tl-title">Admitted, Dept. of Electronic Engineering</span>
+        <span class="tl-org">Jeonbuk National University</span>
+      </li>
+    </ul>
+  </section>
+
+  <section id="research" class="section">
+    <div class="prompt-line"><span class="prompt">$</span> ls ./research --current</div>
+    <div class="cards">
+      <div class="card">
+        <h3>Exoskeleton</h3>
+        <p>Research on exoskeleton systems for physical AI applications, exploring human-machine
+        interaction and control under the physical AI research direction.</p>
+      </div>
+      <div class="card">
+        <h3>SAR Satellite Security</h3>
+        <p>Research on synthetic aperture radar (SAR) satellite systems from a space security
+        perspective, including sensing pipeline and signal-level security considerations.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="publications" class="section">
+    <div class="prompt-line"><span class="prompt">$</span> cat publications.md</div>
+    <ul class="pub-list">
+      <li>
+        <span class="pub-date">2026.08 (Forthcoming)</span>
+        <span class="pub-title">자율주행 인지 파이프라인 개입 위치에 따른 LiDAR/Radar 보안 기술과 향후 연구 방향</span>
+        <span class="pub-venue">Journal of the Korea Institute of Information Security &amp; Cryptology (KIISC), August Issue</span>
+      </li>
+    </ul>
+  </section>
+
+  <section id="blog" class="section">
+    <div class="prompt-line"><span class="prompt">$</span> cd ./blog &amp;&amp; ls</div>
+    <div class="empty-state">
+      <p>No posts yet. New write-ups will appear here.</p>
+    </div>
+    <div class="cards" id="blogList"></div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="prompt-line"><span class="prompt">$</span> cat contact.txt</div>
+    <ul class="contact-list">
+      <li><span class="label">github</span><a href="https://github.com/rokyp1278" target="_blank" rel="noopener">github.com/rokyp1278</a></li>
+      <li><span class="label">email</span><a href="mailto:rokyp1278@gmail.com">rokyp1278@gmail.com</a></li>
+    </ul>
+  </section>
+
+</main>
+
+<footer class="term-footer">
+  <span id="clock"></span>
+  <span class="footer-sep">|</span>
+  <span>© <span id="year"></span> Park, Minseok</span>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
