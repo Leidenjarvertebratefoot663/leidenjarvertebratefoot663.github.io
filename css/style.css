@@ -38,21 +38,22 @@ a:hover { text-decoration: underline; }
 }
 
 .home-btn {
-  color: var(--accent);
-  font-weight: 600;
-  font-size: 0.85rem;
-  white-space: nowrap;
-  border: 1px solid var(--accent-dim);
-  border-radius: 4px;
-  padding: 0.3rem 0.8rem;
-  background: var(--bg-alt);
-  transition: background 0.15s ease, color 0.15s ease;
+  display: inline-flex;
+  align-items: center;
+  line-height: 0;
+  opacity: 0.9;
+  transition: opacity 0.15s ease;
 }
 
 .home-btn:hover {
-  background: var(--accent);
-  color: var(--bg);
+  opacity: 1;
   text-decoration: none;
+}
+
+.home-logo {
+  height: 32px;
+  width: auto;
+  display: block;
 }
 
 .term-nav {
